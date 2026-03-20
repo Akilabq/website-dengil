@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a.navbar-brand{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+}   
+.btn.btn-dark.rounded-pill.px-4.py-2.fw-semibold{
+    color: #fff;
+    background-color: #485C11;
+    transition: .3s;
+    border: none;
+}
+.btn.btn-dark.rounded-pill.px-4.py-2.fw-semibold:hover{
+    color: #fff;
+    background-color: #8E9C78;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    top: 0;
+}
+header{
+    border-radius: 100px;
+    background-color: #ffffff72;
+    backdrop-filter: blur(30px);
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9087667890;
+    pointer-events: auto;
+}
+.wrapper{
+    position: fixed;
+    top: 16px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    padding: 0;
+    pointer-events: none;
+}
+.header .headerul li a{
+    text-decoration: none;
+    color: #000;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    transition: .2s;
+    padding: 0;
+    line-height: 1;
+    display: block;
+}
+.header .headerul li{
+    padding: 0;
+}
+.header .headerul li a:hover{
+     color: #00000065;
+     padding: 0;
+}
+.header .headerul{
+    list-style: none;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 27px;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+}
