@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.containerMain{
+    padding: 0 40px;
+}
 a.navbar-brand{
     font-size: 30px;
     font-weight: 500;
@@ -26,8 +29,8 @@ nav{
 
 nav{
     position: absolute;
-    left: 40px;
-    right: 40px;
+    left: 0px;
+    right: 0px;
     top: 0;
 }
 header{
@@ -79,4 +82,29 @@ header{
     padding: 0;
     align-items: center;
     margin: 0;
+}
+#heroHeader{
+    font-size: 160px;
+    font-family: "Crimson Text";
+    letter-spacing: -5%;
+    line-height: 85%;
+}
+
+body [data-aos="fade-up"] {
+    transform: translate3d(0, 7px, 0); 
+    transition: .55s;
+}
+
+
+body [data-aos="fade-up"].aos-animate {
+    transform: translate3d(0, 0, 0);
+}
+.heroPage{
+    position: relative;
+}
+.heroBlock{
+    position: absolute;
+    background-color: #8E9C78;
+    width: max-content;
+    height: 362px;
 }
