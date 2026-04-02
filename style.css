@@ -290,7 +290,6 @@ body [data-aos="fade-up"].aos-animate {
 .insight-card:hover {
     transform: translateY(-6px);
     box-shadow: 0 20px 40px rgba(35, 44, 61, 0.15);
-    border-color: #7A895F;
 }
 
 .card-icon {
