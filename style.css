@@ -4,10 +4,15 @@
     box-sizing: border-box;
     /* border: 1px solid black; */
 }
+.container {
+    width: calc(100% - 40px); 
+    max-width: 1500px;
+    margin: 0 auto;
+}
 body{
     padding: 0 40px;
     max-width: 1500px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 a.navbar-brand {
@@ -207,9 +212,15 @@ body [data-aos="fade-up"].aos-animate {
     /* border: 1px solid black; */
 }
 .logoipsum:hover{
-    filter: grayscale(0%);
     opacity: 1;
-    transition: .5s;
+    transition: 1000s;
+}
+.logoipsum[data-aos].aos-animate {
+opacity: 0.5;
+}
+.logoipsum[data-aos].aos-animate:hover {
+    opacity: 1;
+    filter: grayscale(0%);
 }
 .logos-container{
     display: flex;
