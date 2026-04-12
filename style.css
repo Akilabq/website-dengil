@@ -16,6 +16,11 @@
     line-height: 90%;
     letter-spacing: -3%;
 }
+.heading3{
+    font-family: "Crimson Text", sans-serif;
+    font-size: 18px;
+    letter-spacing: -3%;
+}
 .paragraph{
     font-size: 15px;
     font-family: "DM Sans", sans-serif;
@@ -37,6 +42,12 @@
     transition: transform 0.2s ease, background 0.2s ease;
     border: none;
     width: fit-content;
+}
+.displayStatistics{
+    font-family: "DM Sans", sans-serif;
+    font-size: 80px;
+    letter-spacing: -4%;
+    color: #929292;
 }
 body{
     padding: 0 40px;
@@ -574,4 +585,30 @@ display: grid;
 .textl{
     padding-left: 50px;
 
+}
+.how-to{
+    padding-bottom: 120px;  
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.howtoContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+.up3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.heroImagee{
+    border-radius: 30px;
+    width: 1440px;
+    height: 780px;
+}
+.imgContainer{
+    position: relative;
+    margin: 0 auto;
 }
